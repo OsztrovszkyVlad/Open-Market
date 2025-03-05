@@ -1,0 +1,17 @@
+{
+  "name": "open-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && node app.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
